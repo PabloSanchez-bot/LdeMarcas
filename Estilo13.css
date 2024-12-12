@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(IMG/LUFFYFONDO.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.body2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(IMG/FONDO2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #651e6ed0; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    align-items: flex;
+}
+
+nav {
+    background-color: #e14dffa2; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcc99; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fffae0af; 
+    border: 1px solid #e873ffc7; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.card img {
+    max-width: 250px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+.card:hover {
+    transition: calc(1,1);
+    background-color: rgba(226, 43, 217, 0.767);
+}
+footer {
+    background-color: #651e6ed0; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.footer-icons img {
+    max-width: 20px;
+    margin: 0 5px;
+    filter: brightness(0) invert(1); 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
