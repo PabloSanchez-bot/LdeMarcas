@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(IMG/LUFFYFONDO.gif);
+    background-image: url(LUFFYFONDO.gif);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(IMG/FONDO2.jpg);
+    background-image: url(FONDO2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
